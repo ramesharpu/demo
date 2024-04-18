@@ -19,7 +19,7 @@ public class DemoApplication {
       return String.format("Hello %s!", name);
     }
 	
-	//b1 changes
+	//b1 changes + john's changes
 	@GetMapping("/hello")
     public String hello() {
       return String.format("This is feature one");
