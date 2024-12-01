@@ -17,4 +17,9 @@ public class DemoApplication {
     public String hello() {
       return String.format("<h1>Hello There!!! Welcome to my application</h1>");
     }
+	
+	@GetMapping("/welcome")
+    public String welcome() {
+      return String.format("<h1>Welcome module demo</h1>");
+    }
 }
